@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Matt Morgan and Sandeep Singh Sidhu</Authors>
+    <Description>Modern Xamarin Forms Calendar that is interactive yet form fitting with two weeks displayed.</Description>
+    <Copyright>2019</Copyright>
+    <PackageReleaseNotes>Initial Release for .Net Standard 1.0.0</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/mattmorgan6/TwoWeekControl</RepositoryUrl>
+    <PackageTags>Calendar Date Modern Xamarin Forms</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="WeekControl.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 
 </Project>
