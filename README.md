@@ -12,7 +12,9 @@ A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
   in the Package Manager Console.
 
 #### Step 2
-  yada yada yada
+  In the XAML content page where you would like the Calendar to go (such as MainPage.xaml), write within the Content Page Tag
+>   xmlns:control="clr-namespace:ModernXamarinCalendar;assembly=ModernXamarinCalendar"
+
 
 #### Step 3
   oi oi oi
