@@ -2,13 +2,13 @@
 A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
 <a href="https://www.nuget.org/packages/ModernXamarinCalendar/">https://www.nuget.org/packages/ModernXamarinCalendar/</a>
 
-<b>Documentation</b>
+##Documentation
 
-<b>Set Up</b>
+###Set Up
 
-<b>Step 1</b>
+####Step 1
   Install the Nuget Package using Nuget Package Manager or 
 
-<b>Step 2</b>
+####Step 2
 
-<b>Step 3</b>
+####Step 3
