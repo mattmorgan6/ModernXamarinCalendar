@@ -25,7 +25,8 @@ A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
                              
 #### Step 4
   In the c# code for your content page (such as MainPage.xaml.cs)
->           public void DateSelectedChanged(object sender, EventArgs e)
+>           
+        public void DateSelectedChanged(object sender, EventArgs e)
         {
             WeekControl calendar = sender as WeekControl;
 
