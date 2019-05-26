@@ -5,10 +5,11 @@ A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
 ## Documentation
 
 ### Set Up
-
 #### Step 1
   Install the Nuget Package using Nuget Package Manager or 
 
 #### Step 2
+  yada yada yada
 
 #### Step 3
+  oi oi oi
