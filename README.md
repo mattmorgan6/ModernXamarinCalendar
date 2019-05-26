@@ -6,14 +6,15 @@ A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
 
 ### Set Up
 #### Step 1
-  Install the Nuget Package using Nuget Package Manager or 
->  Install-Package ModernXamarinCalendar -Version 1.0.0 
-  
-  in the Package Manager Console.
+  Install the Nuget Package using Nuget Package Manager or in the Package Manager Console run command:
+>  
+    Install-Package ModernXamarinCalendar -Version 1.0.0 
+
 
 #### Step 2
   In the XAML content page where you would like the Calendar to go (such as MainPage.xaml), write within the Content Page Tag
->   xmlns:control="clr-namespace:ModernXamarinCalendar;assembly=ModernXamarinCalendar"
+>   
+    xmlns:control="clr-namespace:ModernXamarinCalendar;assembly=ModernXamarinCalendar"
 
 
 #### Step 3
