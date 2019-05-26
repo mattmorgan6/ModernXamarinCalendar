@@ -18,9 +18,10 @@ A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
 
 #### Step 3
   Within your layout in the same XAML Page, place
->         <control:WeekControl x:Name="CalendarWeekControl"
-                             HorizontalOptions="CenterAndExpand"
-                             BackgroundColor="SteelBlue"/>
+>         
+          <control:WeekControl x:Name="CalendarWeekControl"
+                               HorizontalOptions="CenterAndExpand"
+                               BackgroundColor="SteelBlue"/>
                              
 #### Step 4
   In the c# code for your content page (such as MainPage.xaml.cs)
