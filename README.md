@@ -17,4 +17,29 @@ A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
 
 
 #### Step 3
-  oi oi oi
+  Within your layout in the same XAML Page, place
+>         <control:WeekControl x:Name="CalendarWeekControl"
+                             HorizontalOptions="CenterAndExpand"
+                             BackgroundColor="SteelBlue"/>
+                             
+#### Step 4
+  In the c# code for your content page (such as MainPage.xaml.cs)
+>           public void DateSelectedChanged(object sender, EventArgs e)
+        {
+            WeekControl calendar = sender as WeekControl;
+
+            // insert code here that you want to use the date selected for...
+            
+            // control.DateSelected returns a DateTime for the selected day.
+
+            Debug.WriteLine(calendar.DateSelected.ToString());
+        }
+        
+        
+#### Step 5
+  In the same c# file, write within the constructor
+ >   CalendarWeekControl.DataSelectedChanged += DateSelectedChanged;
+ 
+#### Step 6
+  Insert Images
+ 
