@@ -1,5 +1,6 @@
 # ModernXamarinCalendar
 A Nuget Package for Xamarin Forms. Interactive Xamarin Forms Calendar
+[https://www.nuget.org/packages/ModernXamarinCalendar/](https://www.nuget.org/packages/ModernXamarinCalendar/)
 ![Modern Xamarin Calendar Control](https://github.com/mattmorgan6/TwoWeekControl/blob/master/Images/ModernControlSnip.JPG)
 
 ## Documentation
